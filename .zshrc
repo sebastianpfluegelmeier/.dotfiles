@@ -36,6 +36,7 @@ alias ps='sudo pacman -S'
 alias dual='~/.screenlayout/dual.sh'
 alias right='~/.screenlayout/dual_right.sh'
 alias capstoesc='xmodmap ~/.Xmodmap'
+alias psp=~/.setup_scripts/add_to_pacman.sh
 
 PROMPT="%{$fg_bold[red]%}>> %{$reset_color%}"
 export VISUAL=nvim
